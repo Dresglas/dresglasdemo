@@ -43,7 +43,7 @@ public class ConfirmConfig {
         ExchangeBuilder exchangeBuilder =
                 ExchangeBuilder.directExchange( CONFIRM_EXCHANGE_NAME )
                         .durable( true )
-//设置该交换机的备份交换机
+    //设置该交换机的备份交换机
                         .withArgument( "alternate-exchange", BACKUP_EXCHANGE_NAME );
         return (DirectExchange) exchangeBuilder.build();
     }
