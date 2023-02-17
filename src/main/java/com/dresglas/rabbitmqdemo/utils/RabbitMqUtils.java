@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.utils;
 
 import com.rabbitmq.client.Channel;
@@ -16,4 +17,4 @@ public class RabbitMqUtils {
         Channel channel = connection.createChannel();
         return channel;
     }
-}
+}*/

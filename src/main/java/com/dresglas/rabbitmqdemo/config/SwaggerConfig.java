@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.config;
 
 import org.springframework.context.annotation.Bean;
@@ -29,4 +30,4 @@ public class SwaggerConfig {
                         "1551388580@qq.com" ) )
                 .build();
     }
-}
+}*/

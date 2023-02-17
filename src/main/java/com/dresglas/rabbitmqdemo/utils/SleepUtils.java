@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.utils;
 
 public class SleepUtils {
@@ -8,4 +9,4 @@ public class SleepUtils {
             Thread.currentThread().interrupt();
         }
     }
-}
+}*/

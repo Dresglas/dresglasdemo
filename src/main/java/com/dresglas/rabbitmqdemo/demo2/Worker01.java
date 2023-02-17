@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo2;
 
 import com.rabbitmq.client.CancelCallback;
@@ -21,3 +22,4 @@ public class Worker01 {
         channel.basicConsume( QUEUE_NAME, true, deliverCallback, cancelCallback );
     }
 }
+*/

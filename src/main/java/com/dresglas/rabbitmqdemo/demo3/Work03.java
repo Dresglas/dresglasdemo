@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo3;
 
 import com.rabbitmq.client.Channel;
@@ -16,10 +17,12 @@ public class Work03 {
             String message = new String( delivery.getBody() );
             SleepUtils.sleep( 1 );
             System.out.println( "接收到消息:" + message );
-            /**
+            */
+/**
              * 1.消息标记 tag
              * 2.是否批量应答未应答消息
-             */
+             *//*
+
             channel.basicAck( delivery.getEnvelope().getDeliveryTag(), false );
         };
         //采用手动应答
@@ -29,3 +32,4 @@ public class Work03 {
         } );
     }
 }
+*/

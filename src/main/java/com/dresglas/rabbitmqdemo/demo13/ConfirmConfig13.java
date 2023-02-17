@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo13;
 
 import org.springframework.amqp.core.Binding;
@@ -12,7 +13,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-public class ConfirmConfig {
+public class ConfirmConfig13 {
     public static final String CONFIRM_EXCHANGE_NAME = "confirm.exchange";
     public static final String CONFIRM_QUEUE_NAME = "confirm.queue";
     public static final String BACKUP_EXCHANGE_NAME = "backup.exchange";
@@ -74,4 +75,4 @@ public class ConfirmConfig {
                                  @Qualifier("backupExchange") FanoutExchange backupExchange) {
         return BindingBuilder.bind( queue ).to( backupExchange );
     }
-}
+}*/

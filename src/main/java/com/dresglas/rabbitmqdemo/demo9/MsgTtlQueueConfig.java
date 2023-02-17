@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo9;
 
 import org.springframework.amqp.core.Binding;
@@ -35,4 +36,4 @@ public class MsgTtlQueueConfig {
                                   @Qualifier("xExchange") DirectExchange xExchange) {
         return BindingBuilder.bind( queueC ).to( xExchange ).with( "XC" );
     }
-}
+}*/

@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo10;
 
 import org.springframework.amqp.core.Binding;
@@ -41,3 +42,4 @@ public class DelayedQueueConfig {
 
 
 }
+*/

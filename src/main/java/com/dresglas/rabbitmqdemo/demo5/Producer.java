@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo5;
 
 import com.rabbitmq.client.AMQP;
@@ -23,4 +24,4 @@ public class Producer {
             }
         }
     }
-}
+}*/

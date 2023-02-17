@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo6;
 
 import com.rabbitmq.client.BuiltinExchangeType;
@@ -19,3 +20,4 @@ public class Producer {
         }
     }
 }
+*/

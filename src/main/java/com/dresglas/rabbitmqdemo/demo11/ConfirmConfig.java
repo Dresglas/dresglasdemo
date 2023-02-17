@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo11;
 
 import org.springframework.amqp.core.Binding;
@@ -32,4 +33,4 @@ public class ConfirmConfig {
                                 @Qualifier("confirmExchange") DirectExchange exchange) {
         return BindingBuilder.bind( queue ).to( exchange ).with( "key1" );
     }
-}
+}*/

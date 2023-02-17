@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo11;
 
 import lombok.extern.slf4j.Slf4j;
@@ -17,4 +18,4 @@ public class ConfirmConsumer {
         String msg = new String( message.getBody() );
         logger.info( "接受到队列 confirm.queue 消息:{}", msg );
     }
-}
+}*/

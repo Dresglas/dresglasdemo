@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo14;
 
 import com.rabbitmq.client.Channel;
@@ -25,4 +26,4 @@ public class Consumer {
             System.out.println( "消费者无法消费消息时调用，如队列被删除" );
         } );
     }
-}
+}*/

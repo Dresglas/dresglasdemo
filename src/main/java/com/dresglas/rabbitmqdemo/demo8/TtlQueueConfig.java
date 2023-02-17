@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo8;
 
 import org.springframework.amqp.core.Binding;
@@ -84,4 +85,4 @@ public class TtlQueueConfig {
                                         @Qualifier("yExchange") DirectExchange yExchange) {
         return BindingBuilder.bind( queueD ).to( yExchange ).with( "YD" );
     }
-}
+}*/

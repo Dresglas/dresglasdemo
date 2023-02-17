@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo11;
 
 import lombok.extern.slf4j.Slf4j;
@@ -9,16 +10,18 @@ import org.springframework.stereotype.Component;
 
 @Component
 @Slf4j
-public class MyCallBack implements RabbitTemplate.ConfirmCallback {
+public class MyCallBack11 implements RabbitTemplate.ConfirmCallback {
 
-    private static final Logger logger= LoggerFactory.getLogger( MyCallBack.class);
-    /**
+    private static final Logger logger= LoggerFactory.getLogger( MyCallBack11.class);
+    */
+/**
      * 交换机不管是否收到消息的一个回调方法
      * CorrelationData
      * 消息相关数据
      * ack
      * 交换机是否收到消息
-     */
+     *//*
+
     @Override
     public void confirm(CorrelationData correlationData, boolean ack, String cause) {
         String id = correlationData != null ? correlationData.getId() : "";
@@ -28,4 +31,4 @@ public class MyCallBack implements RabbitTemplate.ConfirmCallback {
             logger.info( "交换机还未收到 id 为:{}消息,由于原因:{}", id, cause );
         }
     }
-}
+}*/

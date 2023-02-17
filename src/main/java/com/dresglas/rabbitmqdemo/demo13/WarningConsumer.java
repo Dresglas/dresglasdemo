@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo13;
 
 import lombok.extern.slf4j.Slf4j;
@@ -18,3 +19,4 @@ public class WarningConsumer {
         logger.error( "报警发现不可路由消息：{}", msg );
     }
 }
+*/

@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo11;
 
 import lombok.extern.slf4j.Slf4j;
@@ -22,12 +23,12 @@ public class Producer {
     @Autowired
     private RabbitTemplate rabbitTemplate;
     @Autowired
-    private MyCallBack myCallBack;
+    private MyCallBack11 myCallBack11;
 
     //依赖注入 rabbitTemplate 之后再设置它的回调对象
     @PostConstruct
     public void init() {
-        rabbitTemplate.setConfirmCallback( myCallBack );
+        rabbitTemplate.setConfirmCallback(myCallBack11);
     }
 
     @GetMapping("sendMessage/{message}")
@@ -43,4 +44,4 @@ public class Producer {
         rabbitTemplate.convertAndSend( CONFIRM_EXCHANGE_NAME, routingKey, message + routingKey, correlationData2 );
         logger.info( "发送消息内容:{}", message );
     }
-}
+}*/

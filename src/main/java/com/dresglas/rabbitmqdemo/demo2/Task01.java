@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo2;
 
 import com.rabbitmq.client.Channel;
@@ -20,4 +21,4 @@ public class Task01 {
             }
         }
     }
-}
+}*/

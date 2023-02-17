@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo4;
 
 import com.rabbitmq.client.Channel;
@@ -12,9 +13,11 @@ public class ReceiveLogs02 {
 
     public static void main(String[] argv) throws Exception {
         Channel channel =  RabbitMqUtils.getChannel();
-        channel.exchangeDeclare( EXCHANGE_NAME, "fanout" );         /**
+        channel.exchangeDeclare( EXCHANGE_NAME, "fanout" );         */
+/**
          * 生成一个临时的队列  队列的名称是随机的          * 当消费者断开和该队列的连接时 队列自动删除
-         */
+         *//*
+
         String queueName = channel.queueDeclare().getQueue();
         //把该临时队列绑定我们的exchange 其中routingkey(也称之为binding key)为空字符串 
         channel.queueBind( queueName, EXCHANGE_NAME, "" );
@@ -28,4 +31,4 @@ public class ReceiveLogs02 {
         channel.basicConsume( queueName, true, deliverCallback, consumerTag -> {
         } );
     }
-}
+}*/

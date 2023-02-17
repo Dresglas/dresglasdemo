@@ -1,3 +1,4 @@
+/*
 package com.dresglas.rabbitmqdemo.demo12;
 
 import lombok.extern.slf4j.Slf4j;
@@ -25,12 +26,14 @@ public class MessageProducer implements RabbitTemplate.ConfirmCallback,RabbitTem
     @PostConstruct
     private void init() {
         rabbitTemplate.setConfirmCallback( this );
-        /**
+        */
+/**
          * true：
          * 交换机无法将消息进行路由时，会将该消息返回给生产者
          * false：
          * 如果发现消息无法进行路由，则直接丢弃
-         */
+         *//*
+
         rabbitTemplate.setMandatory( true );
         //设置回退消息交给谁处理
         rabbitTemplate.setReturnCallback( this );
@@ -66,3 +69,4 @@ public class MessageProducer implements RabbitTemplate.ConfirmCallback,RabbitTem
                 new String( message.getBody() ), replyText, exchange, routingKey );
     }
 }
+*/
