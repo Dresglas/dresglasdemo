@@ -1,4 +1,4 @@
-package com.dresglas.elasticsearchdemo.tool;
+package com.dresglas.elasticsearchdemo.utils;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONArray;
@@ -37,7 +37,7 @@ import java.util.List;
 
 @Slf4j
 @Component
-public class RestClientUtil {
+public class ElasticSearchRestClientUtil {
 
     private static final String PRE_TAGS = "<span style=\"color:red\">";
 
