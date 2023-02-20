@@ -5,17 +5,17 @@
     <parent>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
-        <version>2.6.4</version>
+        <version>2.5.3</version>
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
-    <groupId>com.sininenuni</groupId>
-    <artifactId>rabbitmqdemo</artifactId>
+    <groupId>com.dresglas</groupId>
+    <artifactId>dresglasdemo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>rabbitmqdemo</name>
+    <name>dresglasdemo</name>
     <description>Demo project for Spring Boot</description>
     <properties>
         <java.version>1.8</java.version>
-        <elasticsearch.version>7.6.1</elasticsearch.version>
+        <elasticsearch.version>7.17.5</elasticsearch.version>
     </properties>
     <dependencies>
         <dependency>
@@ -25,8 +25,19 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
-            <version>2.6.4</version>
+            <version>2.5.3</version>
         </dependency>
+       <!-- <dependency>
+            <groupId>org.elasticsearch</groupId>
+            <artifactId>elasticsearch</artifactId>
+            <version>6.8.22</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.elasticsearch.client</groupId>
+            <artifactId>elasticsearch-rest-high-level-client</artifactId>
+            <version>6.8.22</version>
+        </dependency>-->
         <!--RabbitMQ 依赖-->
         <dependency>
             <groupId>org.springframework.boot</groupId>
